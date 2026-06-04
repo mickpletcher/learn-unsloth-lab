@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local implementation prompts
+prompts/
+
+# Local VS Code workspace
+learn-unsloth-lab.code-workspace
