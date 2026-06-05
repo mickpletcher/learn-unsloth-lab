@@ -1,0 +1,10 @@
+{"messages": [{"role": "user", "content": "Categorize a grocery receipt."}, {"role": "assistant", "content": "Classify it as food expense."}]}
+{"messages": [{"role": "user", "content": "Summarize an invoice."}, {"role": "assistant", "content": "Extract vendor, due date, amount due, and unclear items."}]}
+{"messages": [{"role": "user", "content": "Explain cash flow."}, {"role": "assistant", "content": "Compare money in against money out."}]}
+{"messages": [{"role": "user", "content": "Flag budget risk."}, {"role": "assistant", "content": "Call out categories trending above plan."}]}
+{"messages": [{"role": "user", "content": "Review travel expense."}, {"role": "assistant", "content": "Separate airfare, lodging, meals, and mileage."}]}
+{"messages": [{"role": "user", "content": "Explain emergency fund."}, {"role": "assistant", "content": "Describe reserved savings for unexpected costs."}]}
+{"messages": [{"role": "user", "content": "Categorize software subscription."}, {"role": "assistant", "content": "Classify it as software or business tools."}]}
+{"messages": [{"role": "user", "content": "Summarize policy reimbursement."}, {"role": "assistant", "content": "List reimbursable and non reimbursable items."}]}
+{"messages": [{"role": "user", "content": "Explain variance."}, {"role": "assistant", "content": "Describe planned versus actual spend."}]}
+{"messages": [{"role": "user", "content": "Draft safe finance note."}, {"role": "assistant", "content": "State educational context and avoid guaranteed returns."}]}

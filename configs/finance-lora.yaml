@@ -1,0 +1,5 @@
+run_id: finance-lora-dry-run
+model: {family: qwen, name: unsloth/Qwen2.5-1.5B-Instruct, max_seq_length: 1024}
+dataset: {path: datasets/finance-lab/train.jsonl, format: chatml}
+training: {mode: lora, lora_rank: 8, lora_alpha: 16, learning_rate: 0.0002, epochs: 1, batch_size: 1, sequence_length: 1024}
+output: {dir: experiments}

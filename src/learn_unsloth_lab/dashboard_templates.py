@@ -1,0 +1,2 @@
+def render_list(title,items): return f"<section><h2>{title}</h2>"+(('<p>No '+title.lower()+' found yet.</p>') if not items else '<ul>'+''.join(f'<li>{x}</li>' for x in items)+'</ul>')+'</section>'
+def render_dashboard(data): return '<html><body><h1>Learn Unsloth Lab Dashboard</h1>'+''.join(render_list(k.title(),data.get(k,[])) for k in ['datasets','reports','exports','challenges'])+'</body></html>'

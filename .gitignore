@@ -222,3 +222,12 @@ prompts/
 
 # Local VS Code workspace
 learn-unsloth-lab.code-workspace
+
+# Local planning notes
+future-upgrades.md
+
+# Generated lab artifacts
+experiments/*
+!experiments/README.md
+exports/*
+!exports/README.md

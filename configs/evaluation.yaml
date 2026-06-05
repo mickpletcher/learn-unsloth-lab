@@ -1,0 +1,2 @@
+prompts: datasets/finance-lab/eval-prompts.jsonl
+output: experiments/finance-evaluation

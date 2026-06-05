@@ -1,0 +1,29 @@
+[build-system]
+requires=["setuptools>=69","wheel"]
+build-backend="setuptools.build_meta"
+[project]
+name="learn-unsloth-lab"
+version="1.0.0"
+description="Offline safe learning lab for Unsloth fine tuning workflows"
+readme="README.md"
+requires-python=">=3.11"
+license={text="MIT"}
+authors=[{name="Mick"}]
+dependencies=["pyyaml>=6.0","typer>=0.12","rich>=13.0","pandas>=2.0"]
+[project.optional-dependencies]
+ml=["unsloth","transformers","datasets","peft","torch","jupyter"]
+dev=["pytest>=8.0","ruff>=0.5","pip-audit>=2.7"]
+[project.scripts]
+learn-unsloth-lab="learn_unsloth_lab.cli:main"
+[tool.setuptools.packages.find]
+where=["src"]
+[tool.pytest.ini_options]
+testpaths=["tests"]
+norecursedirs=["exports","experiments"]
+markers=["gpu: requires CUDA GPU and model downloads","integration: requires external tools"]
+asyncio_default_fixture_loop_scope="function"
+[tool.ruff]
+line-length=100
+target-version="py311"
+[tool.ruff.lint]
+select=["F"]

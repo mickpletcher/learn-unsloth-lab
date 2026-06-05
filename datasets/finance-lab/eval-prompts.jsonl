@@ -1,0 +1,5 @@
+{"prompt": "Categorize a grocery receipt.", "expected": "Concise educational finance response"}
+{"prompt": "Summarize an invoice.", "expected": "Concise educational finance response"}
+{"prompt": "Explain cash flow.", "expected": "Concise educational finance response"}
+{"prompt": "Flag budget risk.", "expected": "Concise educational finance response"}
+{"prompt": "Review travel expense.", "expected": "Concise educational finance response"}

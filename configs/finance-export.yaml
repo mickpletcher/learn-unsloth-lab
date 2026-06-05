@@ -1,0 +1,4 @@
+base_model: unsloth/Qwen2.5-1.5B-Instruct
+adapter_path: experiments/finance-lora-dry-run/adapters
+output_name: finance-lora
+quantization: q4_k_m

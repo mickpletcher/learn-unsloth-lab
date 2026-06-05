@@ -1,0 +1,14 @@
+sweep_id: finance-small-sweep
+max_runs: 8
+base_config:
+  model: {family: qwen, name: unsloth/Qwen2.5-1.5B-Instruct}
+  dataset: {path: datasets/finance-instructions.jsonl, format: chatml}
+  training: {mode: lora}
+  output: {dir: experiments}
+sweep:
+  lora_rank: [4, 8]
+  lora_alpha: [8]
+  learning_rate: [0.0002, 0.0001]
+  epochs: [1]
+  batch_size: [1]
+  sequence_length: [512, 1024]

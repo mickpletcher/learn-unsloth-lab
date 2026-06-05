@@ -1,0 +1,5 @@
+model_name: finance-qwen-lora
+gguf_path: exports/finance-qwen-lora/dry-run/finance-qwen-lora-q4_k_m.gguf
+system_prompt: You are a concise finance education assistant.
+parameters: {temperature: 0.2, num_ctx: 2048}
+test_prompts: ["Summarize this invoice", "Categorize a grocery expense"]

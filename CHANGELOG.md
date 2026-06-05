@@ -2,14 +2,11 @@
 
 ## Unreleased
 
-- Ignored the local VS Code workspace file so it does not get committed with repository changes.
-- Added the full `prompts/` scaffold for the Unsloth learning lab.
-- Expanded `MasterPrompt.md` and all numbered prompt files into a 20 step implementation prompt plan.
-- Added prompt timing for GitHub Spec, `assessment.md`, `future-upgrades.md`, and `completed-upgrades.md`.
-- Strengthened the documentation prompt so novice Windows users can understand and use the repo.
-- Added upgrade tracking rules so completed work moves from `future-upgrades.md` to `completed-upgrades.md` and new future ideas are added after each implementation.
-- Added a changelog standard requiring every repository change to be logged in `CHANGELOG.md`.
-- Added an assessment standard requiring `assessment.md` to be updated for every repository change after it is created.
-- Added a documentation maintenance standard requiring README and docs updates whenever repository changes affect behavior, commands, configs, workflows, or user facing files.
-- Added a local prompt library overview to explain the prompt sequence, maintenance rules, and where to update prompt build issues.
-- Added a prompt library overview maintenance rule requiring the overview to be updated whenever the prompt library changes.
+- Set the pytest asyncio fixture loop scope explicitly to remove the `pytest_asyncio` deprecation warning during test runs.
+- Expanded the docs set so install, quickstart, datasets, training, evaluation, export, Ollama, CLI, dashboard, experiment tracking, sweeps, model comparison, finance lab, testing, troubleshooting, FAQ, dataset README, notebook README, and challenge index match the implemented v1 lab.
+- Corrected the tracking note so `future-upgrades.md` remains the current tracked post v1 backlog instead of being described as ignored.
+- Added Linux and macOS installation sections to README.md with beginner friendly copy and run commands.
+- Rewrote README.md into a comprehensive beginner guide and added links to CHANGELOG.md and completed-upgrades.md.
+- Organized future-upgrades.md into three upgrade tiers for planning.
+- Executed prompts 01 through 20 and built the v1 offline safe Unsloth learning lab.
+- Added package scaffold, core framework, dataset tooling, training dry runs, evaluation reports, GGUF export planning, Ollama planning, hyperparameter sweeps, SQLite tracking, model comparison, notebooks, sample datasets, finance lab, Typer CLI, tests, GitHub Actions, novice docs, challenges, dashboard, release notes, roadmap, assessment, GitHub Spec files, and synchronized upgrade tracking.
